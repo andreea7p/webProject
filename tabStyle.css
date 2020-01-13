@@ -1,0 +1,35 @@
+.tablink{
+	color:rgb(255,255,255);
+	font-size:1em;
+	font-weight:bold;
+	text-shadow:5px 5px 5px black;
+	background-color: rgb(100,0,0);
+	border:10px;
+	border-color:rgb(0,0,0);
+    padding: 12px 16px;
+    cursor: pointer;
+	width:25%;
+	height:4em;
+	float:left;
+
+}
+.tablink:hover{
+    background-color: rgb(158,59,47);		
+}
+.tabcontent {
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Primavara {background-color: rgb(179,255,179);}
+#Vara {background-color: rgb(255,240,179);}
+#Toamna {background-color: rgb(255,194,179);}
+#Iarna {background-color: rgb(217,179,255);}
+
+#anotimp{
+	text-align:center;
+	color:black;
+	font-style: italic;
+	text-decoration:underline;
+}

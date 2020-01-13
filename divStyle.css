@@ -1,0 +1,49 @@
+.Pmenu{
+	background-color: rgb(204,0,0);
+	height: 5em;
+    position: sticky;
+    top:0%;
+}
+
+.Pmenu ul{
+	list-style-type: none;
+}
+
+.Pmenu ul li{
+	width: 15%;
+	float: right;
+	margin:2em;
+	border-left:10px;
+	border-left-color:rgb(255,255,255);
+}
+
+.Pmenu ul li a{
+	text-decoration: none;
+	color: rgb(255,230,230);
+	font-size: 1.35em;
+	font-family: "Times New Roman", cursive;
+	font-weight: bold;
+	text-align:center;
+}
+.Pmenu ul li a:hover{
+	text-decoration: underline;
+	color: rgb(255,255,255);
+}
+
+ul a.buttonH{
+	float:left;
+	margin: 0.3em;
+	width:20%;
+	height:4.5em;
+	position:center;
+	background-image:url("butonHomeh.jpg");
+	background-repeat:no-repeat;
+	background-size:100%,90%;
+	background-position:center;
+	border-radius:60%;
+	border-style:hidden;
+}
+ul a.buttonH:hover{
+	background-image:url("butonHomeHover.jpg");
+	border-style:hidden;
+}

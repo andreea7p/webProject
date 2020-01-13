@@ -1,0 +1,104 @@
+.rowmenu{
+	
+    background-image: linear-gradient(to right, rgba(10,0,0,1), rgba(204,0,0,1));
+	height: 4.5em;
+    position: sticky;
+    top:0%;
+	padding: 0px;
+	margin: 0px;
+}
+
+.rowmenu a{
+	text-decoration: none;
+	color: rgb(255,230,230);
+	font-size: 1.35em;
+	font-family: "Times New Roman", cursive;
+	font-weight: bold;
+	text-align:center;
+}
+ a:hover{
+	color: rgb(255,255,255);
+}
+
+#dropdown ul{
+	display:none;
+	list-style-type: none;
+	background-image:linear-gradient(to right, rgba(80,0,0,1), rgba(150,0,0,1));
+	position:relative;
+	float:left;
+	width:80%;
+	height:150px;
+	top:13px;
+	
+}
+ #dropdown ul li{
+	width:100%;
+	height:50px;
+	margin:0px;
+	text-align:left;
+	
+}
+
+#dropdown ul li a{
+    color:rgb(255,230,230);
+	font-weight:normal;
+	font-size:1.3em;
+
+}
+#dropdown:hover ul{
+	display:block;
+
+}
+
+#dropdown:hover ul li:hover{
+	display:block;
+	background-color: rgba(100,40,40,0.7);
+	color:rgb(255,255,255);
+}
+
+span{
+	color: rgb(255,255,255);
+	font-weight: 500;
+	
+}
+#buttonH{
+	float: left;
+	top: 0%;
+	padding:0px;
+	width:80%;
+	height:3.3rem;
+	background-image:url("../IMAGINI/butonHomeh.jpg");
+	background-repeat:no-repeat;
+	background-size:100%,80%;
+	background-position:center;
+	border-radius:60%;
+	border-style:hidden;
+}
+#buttonH:hover{
+	background-image:url("../IMAGINI/butonHomeHover.jpg");
+	border-style:hidden;
+}
+
+.col-menu{
+  	width: 20%;
+	float: left;
+	margin:1rem;
+	border-left:30px;
+	border-left-color:rgb(255,255,255);
+
+}
+
+
+.rowmenu:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-menu {
+    width: 80%;
+    margin-top: 0;
+  }
+}

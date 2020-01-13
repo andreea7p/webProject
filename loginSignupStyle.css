@@ -1,0 +1,43 @@
+
+.col-ls{
+  flex: 25%;
+  width: 50%;
+  border: 0px;
+  float:left;
+  overflow: auto;
+
+}
+form input, select{
+  float:left;
+  resize: vertical;
+  width: 70%;
+  }
+  form{
+	  
+	font-size: 10px;
+  }
+ #showrange{
+    float:center;
+	width: 20px;
+	height: 10px;
+ 
+ 
+ }
+ form input[type=submit], input[type=reset]{
+	 width: 20%;
+	 height: 30px;
+	 background-color: black;
+     color: white;
+     margin: 10px;
+     cursor: pointer;
+     float: right;
+ }
+ input[type=radio], input[type=checkbox]{
+     
+ }
+ @media screen and (max-width: 600px) {
+  .col-ls, #submitLog, #resetLog, #submitSign, #resetSign {
+    width: 20%;
+    margin-top: 0;
+  }
+ }

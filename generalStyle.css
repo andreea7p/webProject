@@ -1,0 +1,116 @@
+body,html{
+  height: 100%;
+  margin: 0;
+  font-family:Arial, coursive;
+  color:black;
+}
+
+body{
+	background-color:rgb(0,0,0);
+	font-size: 100%;
+	width:100%;
+}
+
+.box{ 
+	padding: 0%;
+    width: 90%;
+	border-color: rgb(204,0,0);
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.Header{
+    height: 25em;
+	width:100%;
+    background-image: url("../IMAGINI/bck_meat.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.scrollPart, #reteta{
+	background-color:rgb(255,255,210);
+	width:100%;
+	top: 11%;
+	overflow:auto;
+}
+
+.footer{
+	background-color: rgb(100,0,0);
+	height:20%;
+	width:100%;
+	top:0%;
+}
+#socialMedia{
+	height:70%;
+	text-align:center;
+	font-weight:normal;
+	color:white;
+}
+.fa {
+  padding:5px;
+  font-size: 20px;
+  width: 30px;
+  height:30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px;
+  border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(106,0,41);
+  color: white;
+}
+
+#madeBy {
+    text-align:right;
+	font-weight:bold;
+	height:30%;
+}
+#madeBy h4{
+	text-align:left;
+}
+#madeBy h5{
+	text-align:right;
+}
+
+#prezentare{
+	float:right;
+	width:300px;
+	height:300px;
+}
+
+#reteta{
+	text-align:left;
+}
+#cuprins, #info{
+	float:left;
+	padding:30px;
+}
+#titlu{
+	text-decoration:underline;
+	color:rgb(204,0,0);
+	text-align:center;
+}
+#titluPag{
+	text-decoration:underline;
+	color:rgb(100,0,0);
+	text-align:center;
+}
+#titluFiltru{
+	text-align:center;
+	color: rgb(204,0,0);
+}

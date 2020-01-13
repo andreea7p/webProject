@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../CSS/menuStyle.css">
+<link rel="stylesheet" type="text/css" href="../CSS/generalStyle.css">
+<link rel="stylesheet" type="text/css" href="../CSS/gridStyle.css">
+<link rel="stylesheet" type="text/css" href="../CSS/filtruStyle.css">
+
+<script src="../JS/tabMenu.js" ></script>
+<script src="../JS/filtruDiv.js" ></script>
+<title>Andreea's cuisine</title>
+<link rel="shortcut icon" type="image/png" href="../IMAGINI/simbol.ico"/>
+
+</head>
+<body>
+<div class="box">
+    <div class="rowmenu">
+	     <div class="col-menu">
+	     <a href="Acasa.html" id="buttonH"></a>
+	     </div>
+         <div class="col-menu" id="dropdown"><a href="Retete.html"><span>|   </span>Retete </a>
+			 <ul>
+			    <li><a href="MicDejun.html">Mic dejun</a></li>
+				<li><a href="PranzCina.html">Pranz / Cina</a></li>
+				<li><a href="Desert.html">Deserturi</a></li>
+			 </ul>
+		 </div>
+         <div class="col-menu">
+		 <a href="Sezon.html"><span>|   </span>Retete de sezon </a>
+		 </div>
+	     <div class="col-menu">
+	     <a href="Acasa.html#contactDirect"><span>|   </span>Contact</a>
+		 </div>
+		
+
+	  </div>
+   
+    <div class="Header">
+      
+    </div>
+   
+    <div class="scrollPart">
+	<br><br>
+       <h2 id="titluPag">Retete</h2>
+	   <hr>
+	   <h3 id="titluFiltru"> Alege un ingredient:</h3>
+	   
+	   <div id="myBtnContainer">
+       <button class="btn active" onclick="filterSelection('all')"> Toate</button>
+       <button class="btn" onclick="filterSelection('oua')"> Oua</button>
+       <button class="btn" onclick="filterSelection('branza')"> Branza</button>
+       <button class="btn" onclick="filterSelection('sunca')"> Sunca</button>
+       <button class="btn" onclick="filterSelection('ceapa')"> Ceapa</button>
+	   <button class="btn" onclick="filterSelection('ardei')"> Ardei</button>
+	   <button class="btn" onclick="filterSelection('carne')"> Carne</button>
+	   <button class="btn" onclick="filterSelection('spanac')"> Spanac</button>
+	   <button class="btn" onclick="filterSelection('banane')"> Bananae</button>
+	   <button class="btn" onclick="filterSelection('nuci')"> Nuci</button>
+       </div>
+	   
+       <div class="rowg">
+	    
+	     <div class="column oua ceapa branza ardei">
+		    <img src="../IMAGINI/OmletaAlba.jpg" alt="Omleta alba" class="image">
+			  <div class="over">
+			     <div class="text"><a href="OmletaAlba.html">Omleta alba - omleta de albusuri</a></div>
+			  </div>
+		 </div>
+		 
+		 <div class="column sunca oua branza">
+		    <img src="../IMAGINI/CroissanteCuSunca.jpg" alt="Croissante" class="image">
+			  <div class="over">
+			     <div class="text"><a href="CroissanteCuSunca.html">Croissante cu sunca si cascaval</a></div>
+			  </div>
+			
+
+		 </div>
+		 
+		  <div class="column oua sunca ceapa">
+		     <img src="../IMAGINI/OuaBenedict.jpg" alt="Oua Benedict" class="image">
+			  <div class="over">
+			     <div class="text"><a href="OuaBenedict.html">Oua Benedict</a></div>
+			  </div>
+		 </div>
+		 
+		  <div class="column oua carne branza ardei">
+		    <img src="../IMAGINI/BrioseAperitiv.jpg" alt="Briose aperitiv" class="image">
+			  <div class="over">
+			     <div class="text"><a href="BrioseAperitiv.html">Briose aperitiv</a></div>
+			  </div>
+		 </div>
+		 
+       </div>	   
+	 <div class="rowg">
+	    
+	     <div class="column spanac branza oua">
+		   <img src="../IMAGINI/PlacintaSpanac.jpg" alt="Placinta cu spanac" class="image">
+			  <div class="over">
+			     <div class="text"><a href="PlacintaSpanac.html">Placinta cu spanac</a></div>
+			  </div>
+		 </div>
+		 
+		 <div class="column oua banane nuci">
+		        <img src="../IMAGINI/pancakes.jpg" alt="Clatite" class="image">
+			  <div class="over">
+			     <div class="text"><a href="Pancakes.html">Pancakes cu banane caramelizate</a></div>
+			  </div>
+			  </div>
+			
+	</div>
+	</div>
+	<div class="footer">
+	    <div id="socialMedia"><br>
+		<h3>Urmareste-ma pe:</h3>
+		<a href="https://www.facebook.com/profile.php?id=100002607104122" class="fa fa-facebook"></a>
+		<a href="https://www.instagram.com/andre_ea.p/" class="fa fa-instagram"></a>
+		<a href="https://www.linkedin.com/in/andreea-petre-a2148b150/" class="fa fa-linkedin"></a>
+		</div>
+		<div id="madeBy">
+		 <h4>  &#169;2019 ANDREEA's Cuisine</h4>
+		 <h5> -> site realizat de Petre Andreea (grupa 311)   </h5>
+		</div>
+	
+	</div>
+
+</div>
+   
+</body>
+</html>
